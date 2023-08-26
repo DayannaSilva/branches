@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "06e9a20d-1e17-4ba7-94e1-a76b91e1fcee",
+		"name": "Branches",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25390888"
+	},
+	"item": [
+		{
+			"name": "http://localhost:27017/api/v1/branches/obtainAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:27017/api/v1/branches/obtainAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "27017",
+					"path": [
+						"api",
+						"v1",
+						"branches",
+						"obtainAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:27017/api/v1/branches/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\": \"123\",\r\n \"code\": \"123\",\r\n \"name\": \"BRANCH NUEVO\"\t\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:27017/api/v1/branches/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "27017",
+					"path": [
+						"api",
+						"v1",
+						"branches",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
